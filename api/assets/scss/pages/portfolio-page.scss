@@ -1,0 +1,165 @@
+#portfolio-page {
+  display: none;
+}
+
+#header-portfolio {
+  margin-top: 4vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+
+    .header-logo2 {
+      max-width: 7%;
+      max-height: 100%;
+
+      .jtc-logo-s2 {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
+
+    #home-btn2 {
+      padding-top: 3%;
+      padding-right: 5%;
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: x-large;
+      text-align: right;
+      font-family: "PT Sans", sans-serif;
+      font-weight: lighter;
+      letter-spacing: 3px;
+      opacity: 50%;
+    }
+
+    #portfolio-btn2 {
+      padding-top: 3%;
+      padding-right: 5%;
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: x-large;
+      text-align: right;
+      font-family: "PT Sans", sans-serif;
+      font-weight: lighter;
+      letter-spacing: 3px;
+    }
+  }
+}
+#portfolio {
+  .categories {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 25%;
+  }
+  #landscapes-btn {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: x-large;
+    text-align: right;
+    font-family: "PT Sans", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    background: none;
+    border: none;
+    max-width: 8em;
+  }
+
+  #portraits-btn {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: x-large;
+    text-align: right;
+    font-family: "PT Sans", sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    background: none;
+    border: none;
+    max-width: 8em;
+  }
+
+  #landscapes-container {
+    max-width: 100%;
+    max-height: 720px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  img.landscape-images {
+    width: 100%;
+    height: 80vh;
+    object-fit: contain;
+  }
+
+  #previous {
+    background: none;
+    border: none;
+    padding: 5%;
+    max-width: 3%;
+    color: whitesmoke;
+    font-family: "PT Sans", sans-serif;
+    font-size: xxx-large;
+  }
+  #previous:hover {
+    cursor: pointer;
+  }
+
+  #next {
+    background: none;
+    border: none;
+    padding: 5%;
+    max-width: 3%;
+    color: whitesmoke;
+    font-family: "PT Sans", sans-serif;
+    font-size: xxx-large;
+  }
+  #next:hover {
+    cursor: pointer;
+  }
+
+  #portraits-container {
+    display: none;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 720px;
+    position: relative;
+    margin: auto;
+  }
+  img.portrait-images {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    object-fit: contain;
+  }
+
+  #previous2 {
+    background: none;
+    border: none;
+    padding: 5%;
+    max-width: 3%;
+    color: whitesmoke;
+    font-family: "PT Sans", sans-serif;
+    font-size: xxx-large;
+  }
+  #previous2:hover {
+    cursor: pointer;
+  }
+
+  #next2 {
+    background: none;
+    border: none;
+    padding: 5%;
+    max-width: 3%;
+    color: whitesmoke;
+    font-family: "PT Sans", sans-serif;
+    font-size: xxx-large;
+  }
+  #next2:hover {
+    cursor: pointer;
+  }
+}

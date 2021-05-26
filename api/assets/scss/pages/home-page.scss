@@ -1,0 +1,92 @@
+#home-page {
+  display: none;
+}
+
+#header {
+  margin-top: 4vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+
+    .header-logo {
+      max-width: 7%;
+      max-height: 100%;
+
+      .jtc-logo-s {
+        max-height: 100%;
+        max-width: 100%;
+      }
+    }
+
+    #home-btn {
+      padding-top: 3%;
+      padding-right: 5%;
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: x-large;
+      text-align: right;
+      font-family: "PT Sans", sans-serif;
+      font-weight: lighter;
+      letter-spacing: 3px;
+    }
+
+    #portfolio-btn {
+      padding-top: 3%;
+      padding-right: 5%;
+      text-decoration: none;
+      color: whitesmoke;
+      font-size: x-large;
+      text-align: right;
+      font-family: "PT Sans", sans-serif;
+      font-weight: lighter;
+      letter-spacing: 3px;
+      opacity: 50%;
+    }
+  }
+}
+
+#about {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  color: whitesmoke;
+  font-family: "PT Sans", sans-serif;
+  padding-left: 3%;
+  padding-right: 3%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
+
+  .text-box {
+    h1 {
+      font-size: xxx-large;
+    }
+
+    h3 {
+      font-size: xx-large;
+    }
+
+    h4 {
+      font-size: larger;
+    }
+
+    p {
+      padding-right: 30%;
+    }
+  }
+
+  .photo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .jar {
+      max-height: 100%;
+      max-width: 80%;
+    }
+  }
+}

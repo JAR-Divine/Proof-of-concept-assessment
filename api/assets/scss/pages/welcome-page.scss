@@ -1,0 +1,29 @@
+#welcome-page {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.welcome {
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 3em;
+  margin-bottom: 1%;
+}
+.jtc-logo {
+  max-height: 100%;
+  width: 30%;
+}
+#enter-btn {
+  align-items: center;
+  justify-content: center;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 6px;
+  color: whitesmoke;
+  background: none;
+  border: none;
+  font-size: 5vh;
+}
