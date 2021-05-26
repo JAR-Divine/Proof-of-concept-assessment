@@ -6,6 +6,7 @@ Project: Web Portfolio
 
 # Check if your browser supports the Web Animations API
 https://codepen.io/danwilson/pen/xGBKVq - WAAPI Browser Support Test
+
 https://codepen.io/danwilson/pen/XmWraY - WAPPI Browser Support Test (+ Polyfill)
 
 If you're browser does not support the Web Animations API download the Polyfill
